@@ -1,0 +1,130 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    text-align: center;
+    background: #2c5a39;
+    overflow: none;
+}
+
+.main{
+    padding-top: 100px;
+    width: 380px;
+    height: 650px;
+    border-radius: 150px;
+    outline: 5px solid #f3fc3f;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+h1
+{
+  color: #000;
+  font-family: georgia;
+  font-size: 35px;
+  font-style: italic;
+  padding-top: 30px;
+  opacity: 0.35;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 1) 0px -1px 1px;
+}
+
+ul{
+    margin-top: 50px;
+    list-style: none;
+    
+}
+
+button{
+    border: none;
+    width: 140px;
+    height: 50px;
+    padding: 14px;
+    color: #fff;
+    margin: 10px;
+    background: #3D3240;
+    font-weight: 700;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: georgia;
+
+}
+
+#poker_play_pause,
+#poker_next_round
+{
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 250px;
+  width: 100px;
+}
+
+#poker_play_pause span,
+#poker_next_round span
+{
+  color: #fff;
+  display: block;
+  font-family: georgia;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+#poker_play_pause a,
+#poker_next_round a
+{
+  color: #fff;
+  display: block;
+  font-family: georgia;
+  font-size: 40px;
+  height: 80px;
+  line-height: 80px;
+  text-decoration: none;
+  width: 80px;
+}
+
+#poker_play_pause
+{
+  margin-left: -185px;
+}
+
+#poker_play_pause a
+{
+  background: red;
+  border: 10px dotted #fff;
+  border-radius: 50px;
+}
+
+
+#poker_play_pause .pause
+{
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+#poker_next_round
+{
+  margin-left: 85px;
+}
+
+#poker_next_round a
+{
+  background: #333;
+  border: 10px dotted #fff;
+  border-radius: 50px;
+}
+
+.footer{
+    color: #000;
+    font-family: georgia;
+    font-size: 20px;
+    font-style: italic;
+    padding-top: 300px;
+    opacity: 0.35;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 1) 0px -1px 1px;
+
+}

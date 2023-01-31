@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: #2c5a39;
+}
+
+#dealer-cards img {
+    height: 175px;
+    width: 125px;
+    margin: 1px;
+}
+
+#your-cards img {
+    height: 175px;
+    width: 125px;
+    margin: 1px;
+}
+
+#hit {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+}
+
+#stay {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.goback{
+    position: relative;
+}
+
+.goback button{
+    border: none;
+    width: 100px;
+    height: 50px;
+    padding: 14px;
+    color: #fff;
+    margin: 10px;
+    background: #3D3240;
+    font-weight: 700;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: georgia;
+}
